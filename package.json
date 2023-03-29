@@ -1,5 +1,5 @@
 {
-  "name": "vlt",
+  "name": "vlt-cli",
   "version": "1.0.0",
   "description": "vlt  , save and execute commands globally from anywhere on your system. With vlt, you can save frequently used commands under unique names, making them easy to remember and execute with just a few keystrokes.",
   "main": "index.js",
