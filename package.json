@@ -14,7 +14,7 @@
     "yargs": "^17.7.1"
   },
   "scripts": {
-    "pub": "npm publish --access restricted"
+    "pub": "npm publish --access public"
   },
   "author": "antiihope",
   "license": "MIT",
