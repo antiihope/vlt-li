@@ -12,10 +12,10 @@ npm install -g vlt-li
 
 ## Usage
 
-To save a command, use the `set` command with the `-i` option for the input command name and the `-o` option for the output command to be executed when the input command is called:
+To save a command, use the `set` command with the `-i` option for the input command name and the `-o` option for the output command to be executed when the input command is called: `vlt set [commandName] [command]`
 
 ```
-vlt set -i "adb-rev" -o "adb reverse tcp:8081 tcp:8081"
+vlt set "adb-rev" "adb reverse tcp:8081 tcp:8081"
 ```
 
 To execute a saved command, simply use the command name as the first argument to the script followed by any additional arguments: `vlt [command] [args...]`

@@ -28,8 +28,9 @@ const argv = yargs
 
 // handle CLI commands and options
 if (argv._.includes('set')) {
-  const commandName = argv.input;
-  const command = argv.output;
+  // vlt set [commandName] [command]
+  const commandName = argv.input ?? argv._[1];
+  const command = argv.output ?? argv._[2];
   saveCommand(commandName, command);
   //   color: green
   console.log(`Command saved successfully: ${commandName} -> ${command}`);

@@ -1,6 +1,6 @@
 {
   "name": "vlt-li",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vlt-li  , save and execute commands globally from anywhere on your system. With vlt-li, you can save frequently used commands under unique names, making them easy to remember and execute with just a few keystrokes.",
   "main": "index.js",
   "bin": {
@@ -14,7 +14,7 @@
     "yargs": "^17.7.1"
   },
   "scripts": {
-    "pub": "npm publish --access private"
+    "pub": "npm publish --access restricted"
   },
   "author": "antiihope",
   "license": "MIT",
