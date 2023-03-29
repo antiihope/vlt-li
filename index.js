@@ -76,7 +76,7 @@ function getCommand(commandName) {
 function runCommand(command, args) {
   const { exec } = require('child_process');
   console.log(command + ' ' + args.join(' '));
-  const child = exec(command + ' ' + args.join(' '));
+  const child = exec(command + ' ' + args.join(' '), { stdio: 'inherit' });
   child.on('exit', (code) => {
     process.exit(code);
   });
