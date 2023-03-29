@@ -1,7 +1,7 @@
 {
-  "name": "vlt-cli",
+  "name": "vlt-li",
   "version": "1.0.0",
-  "description": "vlt  , save and execute commands globally from anywhere on your system. With vlt, you can save frequently used commands under unique names, making them easy to remember and execute with just a few keystrokes.",
+  "description": "vlt-li  , save and execute commands globally from anywhere on your system. With vlt-li, you can save frequently used commands under unique names, making them easy to remember and execute with just a few keystrokes.",
   "main": "index.js",
   "bin": {
     "vlt": "./index.js"
@@ -12,5 +12,14 @@
   ],
   "dependencies": {
     "yargs": "^17.7.1"
+  },
+  "scripts": {
+    "pub": "npm publish --access private"
+  },
+  "author": "antiihope",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antiihope/vlt-li.git"
   }
 }
