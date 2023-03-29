@@ -61,7 +61,6 @@ function loadCommands() {
   }
 }
 
-// save a command to the configuration file
 function saveCommand(commandName, command) {
   commands[commandName] = command;
   fs.writeFileSync(commandsFilePath, JSON.stringify(commands, null, 2));
