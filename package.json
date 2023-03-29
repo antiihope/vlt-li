@@ -1,0 +1,16 @@
+{
+  "name": "vlt",
+  "version": "1.0.0",
+  "description": "vlt  , save and execute commands globally from anywhere on your system. With vlt, you can save frequently used commands under unique names, making them easy to remember and execute with just a few keystrokes.",
+  "main": "index.js",
+  "bin": {
+    "vlt": "./index.js"
+  },
+  "keywords": [
+    "CLI",
+    "Node.js"
+  ],
+  "dependencies": {
+    "yargs": "^17.7.1"
+  }
+}
