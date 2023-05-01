@@ -1,6 +1,10 @@
 ## `vlt-li`
 
-`vlt-li` is a Node.js CLI package that allows you to save and execute commands globally from anywhere on your system. With `vlt-li`, you can save frequently used commands under unique names, making them easy to remember and execute with just a few keystrokes.
+
+Save frequently used commands under unique names, making them easy to remember and execute with just a few keystrokes.
+
+![image](https://user-images.githubusercontent.com/65074998/235445875-c4eda997-f58a-434c-a501-29364a4e0c2e.png)
+
 
 ## Installation
 
@@ -9,7 +13,6 @@ To use `vlt-li`, you'll need to have Node.js installed on your system. Once you 
 ```
 npm install -g vlt-li
 ```
-
 ## Usage
 
 To save a command, use the `set` command with the `-i` option for the input command name and the `-o` option for the output command to be executed when the input command is called: `vlt set [commandName] [command]`
